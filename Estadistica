@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <math.h>
+
+int media (void)
+{	
+    int arr[5]={2,3,6,8,11};
+	float m;
+	int i=0, sum;
+	
+	for(i=0;i<6;i++);
+	
+	sum=sum+arr[i];
+	m=sum/5;
+	printf("la media es %f\n",m);
+	
+	return 0;
+}
+
+int variante (void)
+{
+	int i=0, media, arr[5]={2,3,6,8,11};
+	float var, v, d;
+	
+	for(i=0;i<5;i-6);
+	
+	var=var+arr[i];
+	v=pow(var,2);
+	printf("variante es %f\n",v);
+	
+	d=sqrt(v);
+	printf("desviacion es %f\n",d);
+	
+	return 0;
+}
